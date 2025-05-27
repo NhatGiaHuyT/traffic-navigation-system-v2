@@ -1,0 +1,1024 @@
+Date,Time,Day of the Week,Origin,Destination,Route,Weather Conditions,Accident Reports,Traffic Intensity,Distance
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Trung học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Đền Vua,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bưu điện Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bảo tàng Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bệnh viện Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Tây,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Đông,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Công viên District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Cửa hàng Điện máy X,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Ngã tư Lê Văn Sỹ,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Nhà thờ Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Siêu thị Big C District 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Sân vận động Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Thương Mại Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Văn hóa Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Văn hóa Dân gian,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Y tế Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trường Tiểu học Chợ Lớn,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trạm xe buýt Quận 5,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Đền Bà Thiên Hậu,Đường Trần Hưng Đạo,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bảo tàng Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Cửa hàng Điện máy X,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Vua,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bưu điện Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Tiểu học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bệnh viện Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Tây,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Đông,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Công viên District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Ngã tư Lê Văn Sỹ,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Nhà thờ Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Siêu thị Big C District 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Sân vận động Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Thương Mại Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Văn hóa Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Văn hóa Dân gian,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Y tế Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trường Trung học Chợ Lớn,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trạm xe buýt Quận 5,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Đền Bà Thiên Hậu,Đường 3/2,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Cửa hàng Điện máy X,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Ngã tư Lê Văn Sỹ,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Nhà thờ Chợ Lớn,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Siêu thị Big C District 5,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Sân vận động Quận 5,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Thương Mại Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Chợ Lớn,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Văn hóa Dân gian,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trung tâm Y tế Quận 5,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Tiểu học Chợ Lớn,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trường Trung học Chợ Lớn,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bưu điện Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Trạm xe buýt Quận 5,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Tiểu học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Bà Thiên Hậu,Đền Vua,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bảo tàng Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Bệnh viện Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Tây,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Chợ Bình Đông,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Công viên District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Cửa hàng Điện máy X,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Ngã tư Lê Văn Sỹ,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Nhà thờ Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Siêu thị Big C District 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Sân vận động Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Thương Mại Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Văn hóa Dân gian,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trung tâm Y tế Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trường Trung học Chợ Lớn,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Trạm xe buýt Quận 5,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Đền Vua,Đền Bà Thiên Hậu,Đường Cách Mạng Tháng Tám,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Tây,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Chợ Bình Đông,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Công viên District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Nhà thờ Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Sân vận động Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Tiểu học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trường Trung học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bưu điện Chợ Lớn,Đền Vua,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bưu điện Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Bệnh viện Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Tây,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Chợ Bình Đông,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Công viên District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Cửa hàng Điện máy X,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Ngã tư Lê Văn Sỹ,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Siêu thị Big C District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Tiểu học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trường Trung học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bảo tàng Quận 5,Đền Vua,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bưu điện Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Bảo tàng Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Chợ Bình Tây,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Công viên District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Ngã tư Lê Văn Sỹ,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Nhà thờ Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Sân vận động Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Thương Mại Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Tiểu học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trường Trung học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Bệnh viện Quận 5,Đền Vua,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bưu điện Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Bảo tàng Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Chợ Bình Đông,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Công viên District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Nhà thờ Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Siêu thị Big C District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Sân vận động Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trường Trung học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Tây,Đền Vua,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bưu điện Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bảo tàng Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Bệnh viện Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Chợ Bình Tây,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Công viên District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Nhà thờ Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Siêu thị Big C District 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Sân vận động Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Thương Mại Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trường Trung học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Chợ Bình Đông,Đền Vua,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bưu điện Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bảo tàng Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Bệnh viện Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Tây,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Chợ Bình Đông,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Cửa hàng Điện máy X,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Sân vận động Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Thương Mại Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Văn hóa Dân gian,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trung tâm Y tế Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trường Tiểu học Chợ Lớn,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Trạm xe buýt Quận 5,Đường Cái Vạn,Clear,0,10,0
+2025-05-24,11:02:11,Saturday,Công viên District 5,Đền Bà Thiên Hậu,Đường Cái Vạn,Clear,0,10,0
