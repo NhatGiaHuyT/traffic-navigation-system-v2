@@ -6,7 +6,6 @@ import numpy as np
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../backend')))
 import pickle
 import folium
 from streamlit_folium import folium_static
@@ -33,10 +32,39 @@ from lstm_module import (
 # Suppress warnings for cleaner output
 warnings.filterwarnings("ignore")
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-################################################################################
-#                               GLOBAL FUNCTIONS                               #
-################################################################################
+# 1) Configure Chrome to run headlessly
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--disable-gpu")
+options.add_argument("--window-size=1920,1080")
+
+driver = webdriver.Chrome(options=options)
+
+try:
+    # 2) Navigate to your local Streamlit app
+    driver.get("http://localhost:8501")
+
+    # 3) Wait until the header (with class "stAppHeader") appears
+    wait = WebDriverWait(driver, 10)
+    header = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, ".stAppHeader"))
+    )
+
+    # 4) Read its computed background-color
+    #
+    #    You can also try "background" if you want the full shorthand (in case there is an image or gradient),
+    #    but most Streamlit themes set a solid color, so "background-color" will give you a single rgba/hex.
+    bg_color = header.value_of_css_property("background-color")
+
+
+finally:
+    driver.quit()
 
 st.markdown(
     """
@@ -48,7 +76,7 @@ st.markdown(
     }
     .stApp {
         padding: 20px 40px;
-        background-color: #f0f4f8;
+        background-color: bg_color;
     }
     header, .css-18e3th9 {
         background-color: #1e3c72 !important;
@@ -150,7 +178,7 @@ def modify_graph_with_data(graph, data):
 import os
 import pandas as pd
 
-def update_graph_weights_with_lstm_predictions(graph, lstm_predictions_file="../data/lstm_predictions_output.csv", prediction_horizon_minutes=10):
+def update_graph_weights_with_lstm_predictions(graph, lstm_predictions_file="./data/lstm_predictions_output.csv", prediction_horizon_minutes=10):
     """
     Update graph edge weights based on LSTM predicted traffic intensity for the selected prediction horizon.
     The LSTM predictions CSV should have columns: Route, Predicted Traffic Intensity, Timestamp, Weather Conditions, Accident Reports.
@@ -203,32 +231,116 @@ def update_graph_weights_with_lstm_predictions(graph, lstm_predictions_file="../
     return graph
 
 # Function: dijkstra
-def dijkstra(graph, start, end):
+import math
+
+def heuristic(node, end):
     """
-    Find the shortest path between start and end nodes using Dijkstra's algorithm.
+    Heuristic function for A* algorithm: use straight-line distance if coordinates are available,
+    otherwise return 0 (equivalent to Dijkstra).
+    Assumes node and end are tuples of (latitude, longitude).
+    """
+    if not isinstance(node, tuple) or not isinstance(end, tuple):
+        return 0
+    # Haversine formula to calculate distance between two lat/lon points
+    lat1, lon1 = node
+    lat2, lon2 = end
+    R = 6371  # Earth radius in km
+    phi1 = math.radians(lat1)
+    phi2 = math.radians(lat2)
+    delta_phi = math.radians(lat2 - lat1)
+    delta_lambda = math.radians(lon2 - lon1)
+    a = math.sin(delta_phi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(delta_lambda/2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    distance = R * c
+    return distance
+
+import heapq
+import math
+import copy
+
+def bidirectional_a_star(graph, start, end, location_coords=None):
+    """
+    Bidirectional A* search from start to end.
     Returns total cost, path as list, and route details.
     """
-    priority_queue = [(0, start, [], "")]
-    visited = set()
-    
-    while priority_queue:
-        total_cost, current_node, path, route_taken = heapq.heappop(priority_queue)
-        
-        if current_node in visited:
+    def heuristic(node, goal):
+        if not location_coords or node not in location_coords or goal not in location_coords:
+            return 0
+        lat1, lon1 = location_coords[node]
+        lat2, lon2 = location_coords[goal]
+        R = 6371  # Earth radius in km
+        phi1 = math.radians(lat1)
+        phi2 = math.radians(lat2)
+        delta_phi = math.radians(lat2 - lat1)
+        delta_lambda = math.radians(lon2 - lon1)
+        a = math.sin(delta_phi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(delta_lambda/2)**2
+        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        return R * c
+
+    # Initialize forward and backward search structures
+    forward_queue = [(0 + heuristic(start, end), 0, start, [start], "")]
+    backward_queue = [(0 + heuristic(end, start), 0, end, [end], "")]
+    forward_visited = {}
+    backward_visited = {}
+
+    meeting_node = None
+    best_cost = float("inf")
+    best_path = []
+    best_route = ""
+
+    while forward_queue and backward_queue:
+        # Forward step
+        est_f, cost_f, current_f, path_f, route_f = heapq.heappop(forward_queue)
+        if current_f in forward_visited:
             continue
-        
-        path = path + [current_node]
-        visited.add(current_node)
-        
-        if current_node == end:
-            return total_cost, path, route_taken
-        
-        for neighbor, (weight, route) in graph[current_node].items():
-            if neighbor not in visited:
-                new_route_taken = route_taken + f"{current_node} -> {neighbor} (Route: {route})\n"
-                heapq.heappush(priority_queue, (total_cost + weight, neighbor, path, new_route_taken))
-    
-    return float("inf"), [], ""
+        forward_visited[current_f] = (cost_f, path_f, route_f)
+        if current_f in backward_visited:
+            total_cost = cost_f + backward_visited[current_f][0]
+            if total_cost < best_cost:
+                best_cost = total_cost
+                best_path = path_f + backward_visited[current_f][1][::-1][1:]
+                best_route = route_f + backward_visited[current_f][2]
+                meeting_node = current_f
+        if current_f == end:
+            break
+        for neighbor, (weight, route) in graph.get(current_f, {}).items():
+            if neighbor not in forward_visited:
+                new_route_taken = route_f + f"{current_f} -> {neighbor} (Route: {route})\n"
+                new_cost = cost_f + weight
+                est_cost = new_cost + heuristic(neighbor, end)
+                heapq.heappush(forward_queue, (est_cost, new_cost, neighbor, path_f + [neighbor], new_route_taken))
+
+        # Backward step
+        est_b, cost_b, current_b, path_b, route_b = heapq.heappop(backward_queue)
+        if current_b in backward_visited:
+            continue
+        backward_visited[current_b] = (cost_b, path_b, route_b)
+        if current_b in forward_visited:
+            total_cost = cost_b + forward_visited[current_b][0]
+            if total_cost < best_cost:
+                best_cost = total_cost
+                best_path = forward_visited[current_b][1] + path_b[::-1][1:]
+                best_route = forward_visited[current_b][2] + route_b
+                meeting_node = current_b
+        if current_b == start:
+            break
+        for neighbor, (weight, route) in graph.get(current_b, {}).items():
+            if neighbor not in backward_visited:
+                new_route_taken = f"{neighbor} -> {current_b} (Route: {route})\n" + route_b
+                new_cost = cost_b + weight
+                est_cost = new_cost + heuristic(neighbor, start)
+                heapq.heappush(backward_queue, (est_cost, new_cost, neighbor, path_b + [neighbor], new_route_taken))
+
+    if best_path:
+        return best_cost, best_path, best_route
+    else:
+        return float("inf"), [], ""
+
+def dijkstra(graph, start, end, location_coords=None):
+    """
+    Wrapper to call bidirectional A* as improved pathfinding algorithm.
+    """
+    return bidirectional_a_star(graph, start, end, location_coords)
 
 # Function: yen_k_shortest_paths
 def yen_k_shortest_paths(graph, start, end, k=3):
@@ -259,10 +371,15 @@ def yen_k_shortest_paths(graph, start, end, k=3):
                 if len(p[1]) > j and p[1][:j + 1] == root_path:
                     u = p[1][j]
                     v = p[1][j + 1]
-                    if v in graph_copy[u]:
+                    if v in graph_copy.get(u, {}):
                         del graph_copy[u][v]
-                    if u in graph_copy[v]:
+                    if u in graph_copy.get(v, {}):
                         del graph_copy[v][u]
+
+            # Remove nodes in root_path except spur_node to prevent loops
+            # for node in root_path[:-1]:
+            #     if node in graph_copy:
+            #         graph_copy.pop(node)
 
             # Calculate spur path from spur_node to end
             spur_cost, spur_path, spur_route = dijkstra(graph_copy, spur_node, end)
@@ -277,6 +394,10 @@ def yen_k_shortest_paths(graph, start, end, k=3):
                     weight, route_name = graph[u][v]
                     total_cost += weight
                     total_route += f"{u} -> {v} (Route: {route_name})\n"
+                # Ensure origin and destination are included in route details explicitly
+                origin = total_path[0]
+                destination = total_path[-1]
+                total_route = f"Origin: {origin}\nDestination: {destination}\nRoutes Taken:\n" + total_route
                 potential_paths.append((total_cost, total_path, total_route))
 
         if not potential_paths:
@@ -287,6 +408,14 @@ def yen_k_shortest_paths(graph, start, end, k=3):
 
         # Add the lowest cost path to paths
         paths.append(potential_paths.pop(0))
+
+    # Add origin and destination info to the first path's route details as well
+    if paths:
+        origin = paths[0][1][0]
+        destination = paths[0][1][-1]
+        cost, path, route = paths[0]
+        route = f"Origin: {origin}\nDestination: {destination}\nRoutes Taken:\n" + route
+        paths[0] = (cost, path, route)
 
     return paths
 
@@ -312,7 +441,7 @@ live_traffic_data = {
 }
 
 # Function to read live traffic data from CSV periodically
-def read_live_traffic_data(csv_file="../data/traffic_live_data.csv"):
+def read_live_traffic_data(csv_file="./data/traffic_live_data.csv"):
     global live_traffic_data
     try:
         if os.path.exists(csv_file):
@@ -643,8 +772,8 @@ lang = st.session_state.lang
 st.sidebar.header(lang_mapping[lang]["side_nav_title"])
 
 # Sidebar: Data file selection (for extensibility)
-data_file = st.sidebar.text_input(lang_mapping[lang]["side_nav_data_file"], "../data/lstm_predictions_output.csv")
-graph_file = st.sidebar.text_input(lang_mapping[lang]["side_nav_graph_file"], "../models/route_optimization_graph.pkl")
+data_file = st.sidebar.text_input(lang_mapping[lang]["side_nav_data_file"], "./data/lstm_predictions_output.csv")
+graph_file = st.sidebar.text_input(lang_mapping[lang]["side_nav_graph_file"], "./models/route_optimization_graph.pkl")
 
 # Sidebar: Time of Day selection for prediction adjustments
 time_option = st.sidebar.selectbox(
@@ -693,21 +822,21 @@ graph = modify_graph_with_data(graph, unique_routes)
 prediction_horizon = st.sidebar.slider("Select Prediction Horizon (minutes)", min_value=10, max_value=60, value=10, step=10)
 
 # Update graph weights with LSTM predicted traffic data for selected horizon
-graph = update_graph_weights_with_lstm_predictions(graph, lstm_predictions_file="../data/lstm_predictions_output.csv", prediction_horizon_minutes=prediction_horizon)
+graph = update_graph_weights_with_lstm_predictions(graph, lstm_predictions_file="./data/lstm_predictions_output.csv", prediction_horizon_minutes=prediction_horizon)
 
 import threading
 import time
 import glob
 
 # Adjust cnn_output_file pattern to match actual files generated by Traffic_Video.py
-cnn_output_files = glob.glob("../data/cnn_output_for_lstm_*.csv")
+cnn_output_files = glob.glob("./data/cnn_output_for_lstm.csv")
 if not cnn_output_files:
     import logging
-    logging.warning("No CNN output files found matching pattern '../data/cnn_output_for_lstm_*.csv'. LSTM predictions will be skipped.")
+    logging.warning("No CNN output files found matching pattern './data/cnn_output_for_lstm.csv'. LSTM predictions will be skipped.")
 
 def lstm_prediction_update_loop():
     while True:
-        run_lstm_predictions_on_cnn_output(cnn_output_file=cnn_output_files[0] if cnn_output_files else "../data/cnn_output_for_lstm.csv")
+        run_lstm_predictions_on_cnn_output(cnn_output_file=cnn_output_files[0] if cnn_output_files else "./data/cnn_output_for_lstm.csv")
         time.sleep(10)
 
 lstm_thread = threading.Thread(target=lstm_prediction_update_loop, daemon=True)
@@ -760,12 +889,41 @@ weather_animation, weather_description = get_weather_animation()
 
 st.subheader(lang_mapping[lang]["select_route"])
 
-# Dropdown: Select Origin
-origin = st.selectbox(lang_mapping[lang]["select_origin_label"], unique_routes['Origin'].unique())
+location_coords = {
+    "Chợ Bình Tây": (10.749827770462066, 106.65103751151939),
+    "Đền Bà Thiên Hậu": (10.75336599156594, 106.66131566993364),
+    "Chợ Bình Đông": (10.740305157329562, 106.64346801433803),
+    "Bưu điện Chợ Lớn": (10.75015281650651, 106.65920920671381),
+    "Trung tâm Văn hóa Chợ Lớn": (10.752567211813698, 106.66837345199895),
+    "Bệnh viện Quận 5": (10.754172214677302, 106.6658424815772),
+    "Trường Tiểu học Chợ Lớn": (10.75146329767459, 106.6653704125339),
+    "Trung tâm Thương Mại Chợ Lớn": (10.754380689267403, 106.66551845199916),
+    "Đền Vua": (10.753735421388246, 106.68254348391028),
+    "Trường Trung học Chợ Lớn": (10.752469890339768, 106.66679354438318),
+    "Nhà thờ Chợ Lớn": (10.752450409355223, 106.65462434250949),
+    "Công viên District 5": (10.765354741619404, 106.68074468391033),
+    "Trung tâm Y tế Quận 5": (10.75973350653036, 106.669339853849),
+    "Trung tâm Văn hóa Dân gian": (10.752621903536784, 106.66833300315976),
+    "Sân vận động Quận 5": (10.76126477470413, 106.66344058113613),
+    "Bảo tàng Quận 5": (10.776855424333268, 106.69992342910145),
+    "Ngã tư Lê Văn Sỹ": (10.79663069590259, 106.66568831496896),
+    "Trạm xe buýt Quận 5": (10.762648542663369, 106.67774630409893),
+    "Cửa hàng Điện máy X": (10.755582614035308, 106.68065572575534),
+    "Siêu thị Co-op Mart": (10.761366423779116, 106.67140083683259)
+    }
 
-# Dropdown: Select Destination based on Origin
+# Filter origins to only those present in location_coords
+valid_origins = [o for o in unique_routes['Origin'].unique() if o in location_coords]
+
+# Dropdown: Select Origin with filtered valid origins
+origin = st.selectbox(lang_mapping[lang]["select_origin_label"], valid_origins)
+
+# Filter destinations based on origin and location_coords
 def get_destinations(origin):
-    return list(unique_routes[unique_routes['Origin'] == origin]['Destination'].unique())
+    dests = unique_routes[unique_routes['Origin'] == origin]['Destination'].unique()
+    # Filter destinations to only those with valid location coordinates
+    valid_dests = [d for d in dests if d in location_coords]
+    return valid_dests
 
 destination = st.selectbox(lang_mapping[lang]["select_destination_label"]
     , get_destinations(origin))
@@ -789,7 +947,7 @@ except IndexError:
 
 # Adjust traffic intensity based on time selection
 time_adjustment = 20 if time_option == (
-    lang == "en" and "Peak Hours (8-10 AM, 5-7 PM)" or "Giờ cao điểm (8-10 AM, 5-7 PM)"
+    "Peak Hours (8-10 AM, 5-7 PM)" if lang == "en" else "Giờ cao điểm (8-10 AM, 5-7 PM)"
 ) else 0
 
 # Predict congestion and travel time
@@ -833,8 +991,13 @@ location_coords = {
 }
 
 # Retrieve lat/lon for origin and destination
-lat_o, lon_o = location_coords.get(origin, (0, 0))
-lat_d, lon_d = location_coords.get(destination, (0, 0))
+if origin not in location_coords or destination not in location_coords:
+    st.error("Origin or destination coordinates not found in location data. Please verify the location names.")
+    lat_o, lon_o = None, None
+    lat_d, lon_d = None, None
+else:
+    lat_o, lon_o = location_coords[origin]
+    lat_d, lon_d = location_coords[destination]
 
 import openrouteservice
 from openrouteservice import convert
@@ -849,10 +1012,14 @@ def get_route_coordinates(client, start_coords, end_coords):
         return route_coords
     except Exception as e:
         st.error(f"Error fetching route from OpenRouteService: {e}")
-        return [(lat_o, lon_o), (lat_d, lon_d)]
+        if lat_o is not None and lat_d is not None:
+            return [(lat_o, lon_o), (lat_d, lon_d)]
+        else:
+            return []
 
-if lat_o == 0 or lon_o == 0 or lat_d == 0 or lon_d == 0:
-    st.error("One or more location coordinates not found. Please verify the location names.")
+if lat_o is None or lon_o is None or lat_d is None or lon_d is None:
+    # Do not proceed with map if coordinates missing
+    pass
 else:
     polyline_color = "green" if congestion == "Low" else "yellow" if congestion == "Medium" else "red"
     m = folium.Map(location=[lat_o, lon_o], zoom_start=13)
@@ -880,71 +1047,71 @@ else:
 
     # Add camera nodes with video playback in popup
     camera_nodes = {
-        "Camera 1": {
-            "coords": (10.752, 106.660),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 2": {
-            "coords": (10.755, 106.670),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 3": {
-            "coords": (10.760, 106.665),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 4": {
-            "coords": (10.748, 106.655),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 5": {
-            "coords": (10.754, 106.675),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 6": {
-            "coords": (10.758, 106.660),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 7": {
-            "coords": (10.763, 106.668),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 8": {
-            "coords": (10.750, 106.662),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 9": {
-            "coords": (10.757, 106.670),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 10": {
-            "coords": (10.755, 106.665),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 11": {
-            "coords": (10.759, 106.672),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 12": {
-            "coords": (10.761, 106.658),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 13": {
-            "coords": (10.753, 106.664),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 14": {
-            "coords": (10.756, 106.669),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        },
-        "Camera 15": {
-            "coords": (10.758, 106.663),
-            "video_url": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"
-        }
+    "Camera 1": {
+        "coords": (10.752, 106.660),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 2": {
+        "coords": (10.755, 106.670),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 3": {
+        "coords": (10.760, 106.665),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 4": {
+        "coords": (10.748, 106.655),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 5": {
+        "coords": (10.754, 106.675),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 6": {
+        "coords": (10.758, 106.660),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 7": {
+        "coords": (10.763, 106.668),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 8": {
+        "coords": (10.750, 106.662),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 9": {
+        "coords": (10.757, 106.670),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 10": {
+        "coords": (10.755, 106.665),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 11": {
+        "coords": (10.759, 106.672),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 12": {
+        "coords": (10.761, 106.658),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 13": {
+        "coords": (10.753, 106.664),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 14": {
+        "coords": (10.756, 106.669),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    },
+    "Camera 15": {
+        "coords": (10.758, 106.663),
+        "video_url": "https://www.mapbox.com/bites/00188/patricia_nasa.webm"
+    }
     }
 
     for cam_name, cam_info in camera_nodes.items():
         video_html = f'''
-            <video width="320" height="240" controls autoplay muted loop>
+            <video width="320" height="250" controls autoplay muted loop playsinline>
                 <source src="{cam_info["video_url"]}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -987,47 +1154,76 @@ else:
 
 st.markdown(f"## {lang_mapping[lang]['best_route']}")
 if origin and destination:
-    # Get up to 3 alternative routes using Yen's algorithm
-    k = 3
-    routes = yen_k_shortest_paths(graph, origin, destination, k)
+    # Check if origin and destination exist in graph
+    if origin not in graph or destination not in graph:
+        st.error("Origin or destination not found in the graph data.")
+    else:
+        # Get up to 3 alternative routes using Yen's algorithm
+        k = 3
+        routes = yen_k_shortest_paths(graph, origin, destination, k)
 
-    if routes:
-        # UI to select route among alternatives
-        route_options = [f"Route {i+1} - Cost: {round(r[0], 2)}" for i, r in enumerate(routes)]
-        selected_route_index = st.selectbox("Select Route Option", options=range(len(routes)), format_func=lambda x: route_options[x])
+        if routes:
+            # UI to select route among alternatives
+            route_options = [f"Route {i+1} - Cost: {round(r[0], 2)}" for i, r in enumerate(routes)]
+            selected_route_index = st.selectbox("Select Route Option", options=range(len(routes)), format_func=lambda x: route_options[x])
 
-        selected_route = routes[selected_route_index]
-        total_cost, path, route_taken = selected_route
+            selected_route = routes[selected_route_index]
+            total_cost, path, route_taken = selected_route
 
-        st.write(f"**{lang_mapping[lang]['best_route_details'].format(origin, destination)}**")
-        st.write(f"**{lang_mapping[lang]['best_route_distance'].format(total_cost)}**")
-        st.text(f"{lang_mapping[lang]['best_route_path']}")
-        st.text(route_taken)
+            # Extract origin and destination from route_taken string if present
+            origin_in_route = None
+            destination_in_route = None
+            route_lines = route_taken.splitlines()
+            for line in route_lines:
+                if line.startswith("Origin:"):
+                    origin_in_route = line.replace("Origin:", "").strip()
+                elif line.startswith("Destination:"):
+                    destination_in_route = line.replace("Destination:", "").strip()
 
-        # Show selected route on map
-        # Instead of just node coords, get full route geometry from OpenRouteService for smooth road path
-        try:
-            # Prepare coordinates for ORS: list of [lon, lat]
-            coords_for_ors = []
-            for node in path:
-                if node in location_coords:
-                    lat, lon = location_coords[node]
-                    coords_for_ors.append([lon, lat])
+            # Fallback to UI selected origin/destination if not found in route details
+            display_origin = origin_in_route if origin_in_route else origin
+            display_destination = destination_in_route if destination_in_route else destination
+
+            st.write(f"**{lang_mapping[lang]['best_route_details'].format(display_origin, display_destination)}**")
+            st.write(f"**{lang_mapping[lang]['best_route_distance'].format(total_cost)}**")
+            st.text(f"{lang_mapping[lang]['best_route_path']}")
+            st.text(route_taken)
+
+            # Show selected route on map
+            # Instead of just node coords, get full route geometry from OpenRouteService for smooth road path
+            try:
+                # Prepare coordinates for ORS: list of [lon, lat]
+                coords_for_ors = []
+                for node in path:
+                    if node in location_coords:
+                        lat, lon = location_coords[node]
+                        coords_for_ors.append([lon, lat])
+                    else:
+                        # If any node missing coords, fallback to previous method
+                        coords_for_ors = []
+                        break
+
+                if coords_for_ors and len(coords_for_ors) >= 2:
+                    # Get route geometry from ORS
+                    ors_route = ors_client.directions(coordinates=coords_for_ors, profile='driving-car', format='geojson')
+                    geometry = ors_route['features'][0]['geometry']
+                    coords = geometry['coordinates']
+                    # Convert to [lat, lon] for folium
+                    path_coords = [(c[1], c[0]) for c in coords]
+                    # Calculate cost from ORS summary if available
+                    total_cost = ors_route['features'][0]['properties'].get('summary', {}).get('distance', total_cost)
                 else:
-                    # If any node missing coords, fallback to previous method
-                    coords_for_ors = []
-                    break
-
-            if coords_for_ors and len(coords_for_ors) >= 2:
-                # Get route geometry from ORS
-                ors_route = ors_client.directions(coordinates=coords_for_ors, profile='driving-car', format='geojson')
-                geometry = ors_route['features'][0]['geometry']
-                coords = geometry['coordinates']
-                # Convert to [lat, lon] for folium
-                path_coords = [(c[1], c[0]) for c in coords]
-                # Calculate cost from ORS summary if available
-                total_cost = ors_route['features'][0]['properties'].get('summary', {}).get('distance', total_cost)
-            else:
+                    # Fallback to previous method
+                    path_coords = []
+                    for i in range(len(path) - 1):
+                        u = path[i]
+                        v = path[i + 1]
+                        if u in location_coords:
+                            path_coords.append(location_coords[u])
+                        if i == len(path) - 2 and v in location_coords:
+                            path_coords.append(location_coords[v])
+            except Exception as e:
+                st.error(f"Error fetching route geometry from OpenRouteService: {e}")
                 # Fallback to previous method
                 path_coords = []
                 for i in range(len(path) - 1):
@@ -1037,40 +1233,29 @@ if origin and destination:
                         path_coords.append(location_coords[u])
                     if i == len(path) - 2 and v in location_coords:
                         path_coords.append(location_coords[v])
-        except Exception as e:
-            st.error(f"Error fetching route geometry from OpenRouteService: {e}")
-            # Fallback to previous method
-            path_coords = []
-            for i in range(len(path) - 1):
-                u = path[i]
-                v = path[i + 1]
-                if u in location_coords:
-                    path_coords.append(location_coords[u])
-                if i == len(path) - 2 and v in location_coords:
-                    path_coords.append(location_coords[v])
 
-        # Create folium map centered on origin
-        m = folium.Map(location=location_coords.get(origin, [0, 0]), zoom_start=13)
+            # Create folium map centered on origin
+            m = folium.Map(location=location_coords.get(origin, [0, 0]), zoom_start=13)
 
-        # Draw the selected route polyline
-        folium.PolyLine(
-            locations=path_coords,
-            color="blue",
-            weight=6,
-            tooltip=f"Selected route: Cost {total_cost}"
-        ).add_to(m)
+            # Draw the selected route polyline
+            folium.PolyLine(
+                locations=path_coords,
+                color="blue",
+                weight=6,
+                tooltip=f"Selected route: Cost {total_cost}"
+            ).add_to(m)
 
-        # Add markers for origin and destination
-        folium.Marker(location=location_coords.get(origin, [0, 0]), popup=origin, icon=folium.Icon(color="green")).add_to(m)
-        folium.Marker(location=location_coords.get(destination, [0, 0]), popup=destination, icon=folium.Icon(color="red")).add_to(m)
+            # Add markers for origin and destination
+            folium.Marker(location=location_coords.get(origin, [0, 0]), popup=origin, icon=folium.Icon(color="green")).add_to(m)
+            folium.Marker(location=location_coords.get(destination, [0, 0]), popup=destination, icon=folium.Icon(color="red")).add_to(m)
 
-        folium_static(m, width=1500, height=500)
+            folium_static(m, width=1500, height=500)
 
-    else:
-        if lang == "en":
-            st.write("No path found between the selected origin and destination.")
         else:
-            st.write("Không tìm thấy lộ trình giữa điểm xuất phát và điểm đến đã chọn.")
+            if lang == "en":
+                st.write("No path found between the selected origin and destination.")
+            else:
+                st.write("Không tìm thấy lộ trình giữa điểm xuất phát và điểm đến đã chọn.")
 
 ################################################################################
 #                          DATA EXPLORATION & VISUALIZATION                    #
@@ -1217,7 +1402,7 @@ st.markdown(f"### {lang_mapping[lang]['footer']}")
 # The following code is reserved for future functionality such as exporting data,
 # advanced routing analysis, and integration with external APIs.
 
-def export_filtered_data(dataframe, filename="../data/filtered_data.csv"):
+def export_filtered_data(dataframe, filename="./data/filtered_data.csv"):
     """
     Export the filtered dataframe to a CSV file.
     """
