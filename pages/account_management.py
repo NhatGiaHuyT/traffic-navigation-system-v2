@@ -103,6 +103,7 @@ def login_user(username: str, password: str):
 def logout_user():
     st.session_state['logged_in'] = False
     st.session_state['user'] = None
+    st.session_state['page'] = None
 
 def reset_password_request(email: str):
     user = get_user_by_email(email)
@@ -286,13 +287,17 @@ def login_ui():
         st.text_input("Password", type="password", key="login_password")
         st.form_submit_button("Login", on_click=do_login)
 
+    # Initialize login_error if not present
+    if 'login_error' not in st.session_state:
+        st.session_state['login_error'] = ""
+
     # If there was an error, display it
     if st.session_state.login_error:
         st.error(st.session_state.login_error)
 
 
 def logout():
-    if st.button("Logout"):
+    if st.button("Logout", key="logout_account_management"):
         logout_user()
         st.success("Logged out successfully.")
 
