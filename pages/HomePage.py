@@ -1,6 +1,36 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import os
+import subprocess
+import socket
+import time
+
+def is_backend_running(host='127.0.0.1', port=5000):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        s.settimeout(1)
+        s.connect((host, port))
+        s.close()
+        return True
+    except Exception:
+        return False
+
+def start_backend():
+    # Start the backend Flask app in a subprocess
+    # Use python executable and run backend/app.py
+    # Set cwd to backend directory to ensure correct working directory
+    # Keep stdout and stderr to console for debugging
+    subprocess.Popen(
+        ['python', 'app.py'],
+        cwd='pages',
+        shell=False
+    )
+
+# Check if backend is running, if not start it
+if not is_backend_running():
+    start_backend()
+    # Wait a bit for backend to start
+    time.sleep(3)
 
 # Page configuration
 st.set_page_config(
@@ -48,7 +78,6 @@ if not st.session_state.logged_in:
                 st.session_state.logged_in = True
             else:
                 st.stop()
-
         st.write(f"Welcome back, {st.session_state.user}!")
     elif choice == "Sign Up":
         signup()
@@ -63,51 +92,619 @@ if not st.session_state.logged_in:
 # --- Authenticated app menu ---
 choice = st.sidebar.selectbox(
     "App",
-    ["Home", "Change Password", "Preferences"]
+    ["Home", "Change Password"]
 )
 
 if choice == "Home":
     st.success(f"Welcome, {st.session_state.user[1]}!")
-    # ... your traffic dashboard and features ...
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
+    chatbot_html = """
+<style>
+  #chat-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    border-radius: 50%;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: background 0.3s ease;
+  }
+  #chat-toggle-btn:hover {
+    background: linear-gradient(1000deg, #1e3c68, #2a5296);
+  }
+  #chat-container {
+    position: fixed;
+    bottom: 90px;
+    right: -0.2px;
+    width: 360px;
+    max-height: 520px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    z-index: 9999;
+  }
+  #chat-header {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 14px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #chat-header span.close-btn {
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+  }
+  #chat-messages {
+    flex: 1;
+    padding: 200px 20px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .message {
+    max-width: 75%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  .message.user {
+    background: #1e3c72;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 6px;
+  }
+  .message.bot {
+    background: #e9ecef;
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 6px;
+  }
+  .timestamp {
+    font-size: 10px;
+    color: #999;
+    margin-top: 4px;
+    user-select: none;
+  }
+  #chat-input-container {
+    display: flex;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background: white;
+    align-items: center;
+    border-radius: 20px;
+  }
+  #chat-input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 18px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  #chat-send-btn {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    margin-left: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  #chat-send-btn:hover {
+    background: #1e3c72;
+  }
+  #chat-send-btn svg {
+    fill: white;
+  }
+</style>
+<button id="chat-toggle-btn" aria-label="Toggle chat">💬</button>
+<div id="chat-container" role="region" aria-live="polite" aria-label="Chat window">
+  <div id="chat-header">
+    Virtual Assistant
+    <span class="close-btn" role="button" aria-label="Close chat">&times;</span>
+  </div>
+  <div id="chat-messages" tabindex="0"></div>
+  <div id="chat-input-container">
+    <input type="text" id="chat-input" placeholder="Write your message..." aria-label="Chat input" />
+    <button id="chat-send-btn" aria-label="Send message" title="Send message">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </button>
+  </div>
+</div>
+<script>
+  const toggleBtn = document.getElementById('chat-toggle-btn');
+  const chatContainer = document.getElementById('chat-container');
+  const closeBtn = chatContainer.querySelector('.close-btn');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+  const sendBtn = document.getElementById('chat-send-btn');
 
-    # input box
-    user_input = st.text_input("Ask me about traffic or routes:", key="chat_input")
+  let chatOpen = false;
 
-    if user_input:
-        # append user message
-        st.session_state.chat_history.append({"role": "user", "content": user_input})
+  function toggleChat() {
+    chatOpen = !chatOpen;
+    const iframe = document.querySelector('iframe[srcdoc*="chat-toggle-btn"]');
+    if (chatOpen) {
+      chatContainer.style.display = 'flex';
+      chatContainer.style.pointerEvents = 'auto';
+      chatContainer.style.visibility = 'visible';
+      if (iframe) {
+        iframe.style.position = 'fixed';
+        iframe.style.bottom = '20px';
+        iframe.style.right = '30px';
+        iframe.style.width = '360px';
+        iframe.style.height = '700px';
+        iframe.style.pointerEvents = 'auto';
+        iframe.style.visibility = 'visible';
+        iframe.style.display = 'block';
+        iframe.style.left = '';
+        iframe.style.top = '';
+        iframe.style.zIndex = '-1';
+      }
+    } else {
+      chatContainer.style.display = 'none';
+      chatContainer.style.pointerEvents = 'none';
+      chatContainer.style.visibility = 'hidden';
+      if (iframe) {
+        iframe.style.position = 'fixed';
+        iframe.style.left = '-9999px';
+        iframe.style.top = '-9999px';
+        iframe.style.width = '0';
+        iframe.style.height = '0';
+        iframe.style.pointerEvents = 'none';
+        iframe.style.visibility = 'hidden';
+        iframe.style.display = 'none';
+        iframe.style.zIndex = '-1';
+      }
+    }
+    toggleBtn.textContent = chatOpen ? '×' : '💬';
+    if (chatOpen) {
+      chatInput.focus();
+      scrollToBottom();
+    }
+  }
 
-        # call backend
-        try:
-            resp = requests.post(
-                "http://localhost:5000/chatbot",
-                json={"message": user_input},
-                timeout=10,
-            )
-            if resp.status_code == 200:
-                bot_reply = resp.json().get("reply", "🤖: (no reply)")
-            else:
-                bot_reply = f"Error {resp.status_code}: {resp.text}"
-        except Exception as e:
-            bot_reply = f"Error: {e}"
+  toggleBtn.addEventListener('click', toggleChat);
+  closeBtn.addEventListener('click', toggleChat);
 
-        # append bot reply
-        st.session_state.chat_history.append({"role": "bot", "content": bot_reply})
+  function addMessage(role, content) {
+    const msgDiv = document.createElement('div');
+    msgDiv.classList.add('message', role);
+    msgDiv.textContent = content;
 
-    # display chat history
-    for msg in st.session_state.chat_history:
-        if msg["role"] == "user":
-            st.chat_message("user").text(msg["content"])
-        else:
-            st.chat_message("assistant").text(msg["content"])
+    const timestampDiv = document.createElement('div');
+    timestampDiv.classList.add('timestamp');
+    const now = new Date();
+    timestampDiv.textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    msgDiv.appendChild(timestampDiv);
+
+    chatMessages.appendChild(msgDiv);
+    scrollToBottom();
+  }
+
+  function scrollToBottom() {
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  async function sendMessage() {
+    const message = chatInput.value.trim();
+    if (!message) return;
+    addMessage('user', message);
+    chatInput.value = '';
+    try {
+      const response = await fetch('http://localhost:5000/chatbot', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message})
+      });
+      if (response.ok) {
+        const data = await response.json();
+        addMessage('bot', data.reply || '🤖: (no reply)');
+      } else {
+        addMessage('bot', `Error ${response.status}: ${response.statusText}`);
+      }
+    } catch (error) {
+      addMessage('bot', `Error: ${error.message}`);
+    }
+  }
+
+  sendBtn.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+</script>
+"""
+    components.html(chatbot_html, height=600, scrolling=True)
+
+    st.markdown(
+        """
+        <style>
+        /* Override Streamlit iframe container to fix chatbot position */
+        iframe[srcdoc*="chat-toggle-btn"] {
+            position: fixed !important;
+            bottom: 20px !important;
+            right: 30px !important;
+            width: 360px !important;
+            height: 700px !important;
+            max-height: 700px !important;
+            border-radius: 20px !important;
+            box-shadow: none !important;
+            background: transparent !important;
+            z-index: 10000 !important;
+            pointer-events: auto !important;
+            visibility: visible !important;
+            display: block !important;
+        }
+        /* When chat is closed, hide iframe container completely */
+        iframe.chat-hidden {
+            pointer-events: none !important;
+            visibility: hidden !important;
+            display: none !important;
+            width: 0 !important;
+            height: 0 !important;
+        }
+        /* Override parent containers to prevent clipping */
+        .element-container, .block-container, .main {
+            overflow: visible !important;
+            height: auto !important;
+            max-height: none !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
 elif choice == "Change Password":
     change_password_ui()
 elif choice == "Preferences":
     user_preferences_ui()
+elif choice == "Chatbot":
+    chatbot_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chatbot Bubble UI</title>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+  }
+  #chat-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #ff2e63;
+    border-radius: 50%;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: background 0.3s ease;
+  }
+  #chat-toggle-btn:hover {
+    background: #ff4d7a;
+  }
+  #chat-container {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    width: 360px;
+    max-height: 520px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    z-index: 9999;
+  }
+  #chat-header {
+    background: #ff2e63;
+    color: white;
+    padding: 14px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #chat-header span.close-btn {
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+  }
+  #chat-messages {
+    flex: 1;
+    padding: 15px 20px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .message {
+    max-width: 75%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  .message.user {
+    background: #ff2e63;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 6px;
+  }
+  .message.bot {
+    background: #e9ecef;
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 6px;
+  }
+  .timestamp {
+    font-size: 10px;
+    color: #999;
+    margin-top: 4px;
+    user-select: none;
+  }
+  #chat-input-container {
+    display: flex;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background: white;
+    align-items: center;
+  }
+  #chat-input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 18px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  #chat-send-btn {
+    background: #ff2e63;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    margin-left: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  #chat-send-btn:hover {
+    background: #ff4d7a;
+  }
+  #chat-send-btn svg {
+    fill: white;
+  }
+</style>
+</head>
+<body>
+<button id="chat-toggle-btn" aria-label="Toggle chat">💬</button>
+<div id="chat-container" role="region" aria-live="polite" aria-label="Chat window">
+  <div id="chat-header">
+    Virtual Assistant
+    <span class="close-btn" role="button" aria-label="Close chat">&times;</span>
+  </div>
+  <div id="chat-messages" tabindex="0"></div>
+  <div id="chat-input-container">
+    <input type="text" id="chat-input" placeholder="Write your message..." aria-label="Chat input" />
+    <button id="chat-send-btn" aria-label="Send message" title="Send message">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </button>
+  </div>
+</div>
+<script>
+  const toggleBtn = document.getElementById('chat-toggle-btn');
+  const chatContainer = document.getElementById('chat-container');
+  const closeBtn = chatContainer.querySelector('.close-btn');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+  const sendBtn = document.getElementById('chat-send-btn');
 
-# Enhanced Custom CSS for a sleek, modern, and visually pleasing traffic-themed interface
+  let chatOpen = false;
+
+  function toggleChat() {
+    chatOpen = !chatOpen;
+    const iframe = document.querySelector('iframe[srcdoc*="chat-toggle-btn"]');
+    if (chatOpen) {
+      chatContainer.style.display = 'flex';
+      chatContainer.style.pointerEvents = 'auto';
+      chatContainer.style.visibility = 'visible';
+      if (iframe) {
+        iframe.style.position = 'fixed';
+        iframe.style.bottom = '20px';
+        iframe.style.right = '30px';
+        iframe.style.width = '360px';
+        iframe.style.height = '700px';
+        iframe.style.pointerEvents = 'auto';
+        iframe.style.visibility = 'visible';
+        iframe.style.display = 'block';
+        iframe.style.left = '';
+        iframe.style.top = '';
+        iframe.style.zIndex = '10000';
+      }
+    } else {
+      chatContainer.style.display = 'none';
+      chatContainer.style.pointerEvents = 'none';
+      chatContainer.style.visibility = 'hidden';
+      if (iframe) {
+        iframe.style.position = 'fixed';
+        iframe.style.left = '-9999px';
+        iframe.style.top = '-9999px';
+        iframe.style.width = '0';
+        iframe.style.height = '0';
+        iframe.style.pointerEvents = 'none';
+        iframe.style.visibility = 'hidden';
+        iframe.style.display = 'none';
+        iframe.style.zIndex = '-1';
+      }
+    }
+    toggleBtn.textContent = chatOpen ? '×' : '💬';
+    if (chatOpen) {
+      chatInput.focus();
+      scrollToBottom();
+    }
+  }
+
+  toggleBtn.addEventListener('click', toggleChat);
+  closeBtn.addEventListener('click', toggleChat);
+
+  function addMessage(role, content) {
+    const msgDiv = document.createElement('div');
+    msgDiv.classList.add('message', role);
+    msgDiv.textContent = content;
+
+    const timestampDiv = document.createElement('div');
+    timestampDiv.classList.add('timestamp');
+    const now = new Date();
+    timestampDiv.textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    msgDiv.appendChild(timestampDiv);
+
+    chatMessages.appendChild(msgDiv);
+    scrollToBottom();
+  }
+
+  function scrollToBottom() {
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  async function sendMessage() {
+    const message = chatInput.value.trim();
+    if (!message) return;
+    addMessage('user', message);
+    chatInput.value = '';
+    try {
+      const response = await fetch('http://localhost:5000/chatbot', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message})
+      });
+      if (response.ok) {
+        const data = await response.json();
+        addMessage('bot', data.reply || '🤖: (no reply)');
+      } else {
+        addMessage('bot', `Error ${response.status}: ${response.statusText}`);
+      }
+    } catch (error) {
+      addMessage('bot', `Error: ${error.message}`);
+    }
+  }
+
+  sendBtn.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+</script>
+</body>
+</html>
+"""
+    components.html(chatbot_html, height=600, scrolling=True)
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# 1) Configure Chrome to run headlessly
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--disable-gpu")
+options.add_argument("--window-size=1920,1080")
+
+driver = webdriver.Chrome(options=options)
+
+try:
+    # 2) Navigate to your local Streamlit app
+    driver.get("http://localhost:8501")
+
+    # 3) Wait until the header (with class "stAppHeader") appears
+    wait = WebDriverWait(driver, 10)
+    header = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, ".stAppHeader"))
+    )
+
+    # 4) Read its computed background-color
+    #
+    #    You can also try "background" if you want the full shorthand (in case there is an image or gradient),
+    #    but most Streamlit themes set a solid color, so "background-color" will give you a single rgba/hex.
+    bg_color = header.value_of_css_property("background-color")
+
+
+finally:
+    driver.quit()
+
 st.markdown(
     """
     <style>
@@ -124,11 +721,10 @@ st.markdown(
     }
 
     .stApp {
-        background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+        background: bg_color;
         min-height: 100vh;
         padding: 20px 40px;
     }
-
     /* Header Styles */
     .main-header {
         background: linear-gradient(90deg, #1e3c72, #2a5298);
@@ -175,7 +771,7 @@ st.markdown(
 
     /* Card Styles */
     .feature-card {
-        background: #ffffff;
+        background: bg_color;
         border-radius: 20px;
         padding: 30px 25px;
         height: 100%;
@@ -264,7 +860,7 @@ st.markdown(
 
     /* Footer Styles */
     .footer {
-        background: rgba(255, 255, 255, 0.95);
+        background: bg_color;
         padding: 20px;
         border-radius: 15px;
         margin-top: 60px;
@@ -363,7 +959,17 @@ st.markdown(
 # Show logout button
 with st.sidebar:
     if st.button("Logout"):
-        logout()
+        st.session_state.logged_in = False
+        st.session_state.user = None
+        components.html(
+            """
+            <script>
+            window.location.reload(true);
+            </script>
+            """,
+            height=0,
+            width=0,
+        )
 
 # Set session state for page navigation
 if 'page' not in st.session_state:
@@ -371,8 +977,7 @@ if 'page' not in st.session_state:
 
 if 'lang' not in st.session_state:
     st.session_state.lang = 'vi'
-selected_lang = st.toggle("🇻🇳", value="vi", key="lang_selector") and "vi" or "en"
-# Add language button
+
 lang_mapping = {
     "vi": {
         "home_title": "Chào mừng đến với RouteVision AI!",
@@ -410,10 +1015,12 @@ lang_mapping = {
         "home_footer": "© 2025 RouteVision AI - Transforming Urban Mobility Through Artificial Intelligence",
         "home_button": "🏠 Home",
     }
-
 }
-if selected_lang != st.session_state.lang:
-    st.session_state.lang = selected_lang
+
+with st.sidebar:
+    selected_lang = st.toggle("🇻🇳", value="vi", key="lang_selector") and "vi" or "en"
+    if selected_lang != st.session_state.lang:
+        st.session_state.lang = selected_lang
 
 # Add home button when not on home page
 if st.session_state.page != 'home':
@@ -421,6 +1028,7 @@ if st.session_state.page != 'home':
     if st.button(lang_mapping[st.session_state.lang]["home_button"]
         , key="home-button-hidden", help="Return to homepage"):
         st.session_state.page = 'home'
+    
     
 
 # Logic to navigate to different Python files
@@ -563,11 +1171,11 @@ else:
     # Simulate the redirection by running the corresponding Python file
     try:
         if st.session_state.page == 'traffic_video':
-            exec(open(r"Traffic_Video.py", encoding="utf-8").read())
+            exec(open(r"pages/Traffic_Video.py", encoding="utf-8").read())
         elif st.session_state.page == 'route_optimize_predictor':
-            exec(open(r"predictive_analysis_route_analysis.py", encoding="utf-8").read())
+            exec(open(r"pages/predictive_analysis_route_analysis.py", encoding="utf-8").read())
         elif st.session_state.page == 'smart_signal':
-            exec(open(r"SignalSimulation.py", encoding="utf-8").read())
+            exec(open(r"pages/SignalSimulation.py", encoding="utf-8").read())
     except Exception as e:
         st.error(f"Error loading page: {e}")
         st.button("Return to Home", on_click=lambda: setattr(st.session_state, 'page', 'home'))
